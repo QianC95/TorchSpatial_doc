@@ -43,15 +43,18 @@ This is a cat.
       - Mul.S.
       - Dist.P.
       - Dir.A.
+      - Description
     * - onehot(Tang *el al.* 2015)
       - 2,3
       - Yes
       - No
       - No
       - -
+      - Just show a very long sentence to create a custom CSS control horizontal scroll on tables
     * - tile(Mai *et al.* 2020b)
       - 2,3
       - Yes
       - No
       - No
       - -
+      - Just show a very long sentence to create a custom CSS control horizontal scroll on tables

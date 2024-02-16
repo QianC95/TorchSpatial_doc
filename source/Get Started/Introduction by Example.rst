@@ -34,7 +34,7 @@ Bye
 This is a cat.
 
 .. list-table:: Overview of location encoding approaches.
-    :widths: 40 5 10 10 10 10
+    :widths: 40 5 10 10 10 10 20
     :header-rows: 1
 
     * - Model

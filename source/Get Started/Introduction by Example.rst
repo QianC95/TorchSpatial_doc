@@ -30,3 +30,5 @@ Here is a code example:
 
 Bye
 ===
+
+This is a cat.

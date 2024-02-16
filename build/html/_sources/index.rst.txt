@@ -7,6 +7,8 @@ Welcome to LocEncoder's documentation!
 ======================================
 .. image:: /images/hi.jpg
 
+Here is the **v1.0**
+
 .. toctree::
    :maxdepth: 2
    :caption: Install:

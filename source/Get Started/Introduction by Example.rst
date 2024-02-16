@@ -33,6 +33,9 @@ Bye
 
 This is a cat.
 
+.. tip::
+    This is a tip.
+
 .. list-table:: Overview of location encoding approaches.
     :widths: 40 5 10 10 10 10 20
     :header-rows: 1

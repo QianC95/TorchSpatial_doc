@@ -32,3 +32,26 @@ Bye
 ===
 
 This is a cat.
+
+.. list-table:: Overview of location encoding approaches.
+    :widths: 40 5 10 10 10 10
+    :header-rows: 1
+
+    * - Model
+      - *L*
+      - Parametric
+      - Mul.S.
+      - Dist.P.
+      - Dir.A.
+    * - onehot(Tang *el al.* 2015)
+      - 2,3
+      - Yes
+      - No
+      - No
+      - -
+    * - tile(Mai *et al.* 2020b)
+      - 2,3
+      - Yes
+      - No
+      - No
+      - -

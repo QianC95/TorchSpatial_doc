@@ -49,21 +49,24 @@ Here is the **v1.0**
    :maxdepth: 2
    :caption: Others:
 
-   Encoders/documentation.md
-   Encoders/tile-ffn.md
-   Encoders/xyz.md
-   Encoders/wrap.md
-   Encoders/wrap-ffn.md
-   Encoders/rbf.md
-   Encoders/rff.md
-   Encoders/NeRF.md
-   Encoders/Space2Vec-grid.md
-   Encoders/Space2Vec-theory.md
-   Encoders/Sphere2Vec-dfs.md
-   Encoders/Sphere2Vec-sphereC.md
-   Encoders/Sphere2Vec-sphereC+.md
-   Encoders/Sphere2Vec-sphereM.md
-   Encoders/Sphere2Vec-sphereM+.md
+   Others/documentation.md
+   Others/tile-ffn.md
+   Others/xyz.md
+   Others/wrap.md
+   Others/wrap-ffn.md
+   Others/rbf.md
+   Others/rff.md
+   Others/NeRF.md
+   Others/Space2Vec-grid.md
+   Others/Space2Vec-theory.md
+   Others/Sphere2Vec-dfs.md
+   Others/Sphere2Vec-sphereC.md
+   Others/Sphere2Vec-sphereC+.md
+   Others/Sphere2Vec-sphereM.md
+   Others/Sphere2Vec-sphereM+.md
+   Others/Others0.rst
+   Others/Others1.rst
+   
 
 .. image:: /images/good.jpg
 

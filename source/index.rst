@@ -47,10 +47,23 @@ Here is the **v1.0**
 
 .. toctree::
    :maxdepth: 2
-   :caption: Others:
+   :caption: Encoders:
 
-   Others/Others0
-   Others/Others1
+   Encoders/documentation.md
+   Encoders/tile-ffn.md
+   Encoders/xyz.md
+   Encoders/wrap.md
+   Encoders/wrap-ffn.md
+   Encoders/rbf.md
+   Encoders/rff.md
+   Encoders/NeRF.md
+   Encoders/Space2Vec-grid.md
+   Encoders/Space2Vec-theory.md
+   Encoders/Sphere2Vec-dfs.md
+   Encoders/Sphere2Vec-sphereC.md
+   Encoders/Sphere2Vec-sphereC+.md
+   Encoders/Sphere2Vec-sphereM.md
+   Encoders/Sphere2Vec-sphereM+.md
 
 .. image:: /images/good.jpg
 

@@ -47,7 +47,7 @@ Here is the **v1.0**
 
 .. toctree::
    :maxdepth: 2
-   :caption: Encoders:
+   :caption: Others:
 
    Encoders/documentation.md
    Encoders/tile-ffn.md

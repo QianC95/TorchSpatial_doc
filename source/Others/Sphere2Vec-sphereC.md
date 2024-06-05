@@ -1,10 +1,10 @@
 # SphereSpatialRelationLocationEncoder
 
 ## Overview
-The `SphereSpatialRelationLocationEncoder` is designed for encoding spatial relations between locations using a spherical coordinate system. This encoder integrates a position encoding strategy, leveraging a [`SphereSpatialRelationPositionEncoder`](#SphereSpatialRelationPositionEncoder), and further processes the encoded positions through a customizable multi-layer feed-forward neural network.
+The `SphereSpatialRelationLocationEncoder` is designed for encoding spatial relations between locations using a spherical coordinate system. This encoder integrates a position encoding strategy, leveraging a `SphereSpatialRelationPositionEncoder`, and further processes the encoded positions through a customizable multi-layer feed-forward neural network.
 
 ## Features
-- **Position Encoding (`self.position_encoder`)**: Utilizes the [`SphereSpatialRelationPositionEncoder`](#SphereSpatialRelationPositionEncoder) to encode spatial differences (deltaX, deltaY) using sinusoidal functions.
+- **Position Encoding (`self.position_encoder`)**: Utilizes the `SphereSpatialRelationPositionEncoder` to encode spatial differences (deltaX, deltaY) using sinusoidal functions.
 - **Feed-Forward Neural Network (`self.ffn`)**: Transforms the position-encoded data through a series of feed-forward layers to produce high-dimensional spatial embeddings.
 
 ## Configuration Parameters
@@ -31,7 +31,7 @@ The `SphereSpatialRelationLocationEncoder` is designed for encoding spatial rela
 - **Returns**:
   - `sprenc` (Tensor): Spatial relation embeddings with a shape of `(batch_size, num_context_pt, spa_embed_dim)`.
 
-> ## SphereSpatialRelationPositionEncoder <a name="SphereSpatialRelationPositionEncoder"></a>
+> ## SphereSpatialRelationPositionEncoder
 
 ### Overview
   <p align="center">

@@ -4,7 +4,7 @@
 The `TheoryGridCellSpatialRelationLocationEncoder` extends the `LocationEncoder` to encode spatial relationships between locations using advanced theoretical methods. This encoder uses a specialized position encoder (`TheoryGridCellSpatialRelationPositionEncoder`) to transform spatial differences into a high-dimensional space, and further processes these embeddings through a custom multi-layer feed-forward neural network.
 
 ## Features
-- **Position Encoding**: Utilizes the [`TheoryGridCellSpatialRelationPositionEncoder`](#TheoryGridCellSpatialRelationPositionEncoder) for converting spatial differences into encoded positions based on specified frequencies and radii.
+- **Position Encoding**: Utilizes the `TheoryGridCellSpatialRelationPositionEncoder` for converting spatial differences into encoded positions based on specified frequencies and radii.
 - **Feed-Forward Neural Network**: Processes the position-encoded data through a multi-layer neural network, customizable in terms of architecture and activation functions.
 
 ## Configuration Parameters
@@ -23,7 +23,7 @@ The `TheoryGridCellSpatialRelationLocationEncoder` extends the `LocationEncoder`
 - `ffn_skip_connection`: Boolean flag to enable skip connections in the network.
 - `ffn_context_str`: A string identifier used for context-specific logging or debugging.
 
-> ## TheoryGridCellSpatialRelationPositionEncoder <a name="TheoryGridCellSpatialRelationPositionEncoder"></a>
+> ## TheoryGridCellSpatialRelationPositionEncoder
 ### Key Features and Enhancements:
 
 - **Multi-Angular Encoding:** Utilizes three unit vectors positioned at 0, 120, and 240 degrees to capture directional nuances in spatial relationships.

@@ -1,10 +1,10 @@
 # Space2Vec-xyz (XYZSpatialRelationLocationEncoder)
 
 ## Overview
-The `XYZSpatialRelationLocationEncoder` is designed for encoding spatial relations between locations. This encoder integrates a position encoding strategy, leveraging an [XYZSpatialRelationPositionEncoder](#XYZSpatialRelationPositionEncoder), and further processes the encoded positions through a customizable multi-layer feed-forward neural network.
+The `XYZSpatialRelationLocationEncoder` is designed for encoding spatial relations between locations. This encoder integrates a position encoding strategy, leveraging an `XYZSpatialRelationPositionEncoder`, and further processes the encoded positions through a customizable multi-layer feed-forward neural network.
 
 ## Features
-- **Position Encoding (`self.position_encoder`):** Utilizes the [XYZSpatialRelationPositionEncoder](#XYZSpatialRelationPositionEncoder) to encode spatial differences (deltaX, deltaY) based on sinusoidal functions.
+- **Position Encoding (`self.position_encoder`):** Utilizes the `XYZSpatialRelationPositionEncoder` to encode spatial differences (deltaX, deltaY) based on sinusoidal functions.
 - **Feed-Forward Neural Network (`self.ffn`):** Transforms the position-encoded data through a series of feed-forward layers to produce high-dimensional spatial embeddings.
 
 ## Configuration Parameters

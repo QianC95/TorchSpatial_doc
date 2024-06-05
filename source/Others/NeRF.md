@@ -1,10 +1,10 @@
 # NERFSpatialRelationLocationEncoder
 
 ## Overview
-The `NERFSpatialRelationLocationEncoder` is designed to compute spatial embeddings from coordinate data using a Neural Radiance Field (NeRF) based encoding approach. This encoder integrates a position encoding strategy, leveraging a [`NERFSpatialRelationPositionEncoder`](#NERFSpatialRelationPositionEncoder), and further processes the encoded positions through a customizable multi-layer feed-forward neural network.
+The `NERFSpatialRelationLocationEncoder` is designed to compute spatial embeddings from coordinate data using a Neural Radiance Field (NeRF) based encoding approach. This encoder integrates a position encoding strategy, leveraging a `NERFSpatialRelationPositionEncoder`, and further processes the encoded positions through a customizable multi-layer feed-forward neural network.
 
 ## Features
-- **Position Encoding (`self.position_encoder`)**: Utilizes the [`NERFSpatialRelationPositionEncoder`](#NERFSpatialRelationPositionEncoder) to encode spatial differences (latitude, longitude) using NeRF-inspired sinusoidal functions.
+- **Position Encoding (`self.position_encoder`)**: Utilizes the `NERFSpatialRelationPositionEncoder` to encode spatial differences (latitude, longitude) using NeRF-inspired sinusoidal functions.
 - **Feed-Forward Neural Network (`self.ffn`)**: Transforms the position-encoded data through a series of feed-forward layers to produce high-dimensional spatial embeddings.
 
 ## Configuration Parameters
@@ -29,7 +29,7 @@ The `NERFSpatialRelationLocationEncoder` is designed to compute spatial embeddin
 - **Returns**:
   - `sprenc` (Tensor): Spatial relation embeddings with a shape of `(batch_size, num_context_pt, spa_embed_dim)`.
 
-> ## NERFSpatialRelationPositionEncoder <a name="NERFSpatialRelationPositionEncoder"></a>
+> ## NERFSpatialRelationPositionEncoder
 
 ### Features
 <p align="center">
